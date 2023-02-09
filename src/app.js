@@ -25,8 +25,22 @@ const getButton = document.querySelector("#getButton");
 getButton.addEventListener('click', () => {
     var szam = 3;
     szam = num1Elem.value;
+    num1Elem.value = '';
     kiir(szam);
+    vizsgalat(szam);
 })
+
+function vizsgalat(input){
+    let egyezik = input.match(/^[0-9]+$/);
+    if(egyezik){
+        console.log("Egyezik");
+    }else {
+        console.log("NEM JÓ");
+    }
+
+    console.log(egyezik);
+
+}
 
 function kiir(szam){
     if(szam == 1){
