@@ -58,3 +58,11 @@ function kiir(szam){
 // console.log(window.height);  
 
 console.error("ERROR, HIBA!");
+
+const doboz1 = document.querySelector("#doboz1");
+const startButton = document.querySelector("#startButton");
+
+startButton.addEventListener('click', () => {
+    doboz1.style.backgroundColor = 'gray';
+    doboz1.style.animation = "anim1 10s";
+});

@@ -1,1 +1,16 @@
-/* init  */
+#doboz1{
+    background-color: white;
+    width: 20px;
+    height: 150px;
+    /* animation: anim1 10s; !javaScriptben!!! */
+    border-radius: 5px;
+}
+
+@keyframes anim1 {
+    from {
+        height: 0;
+    }
+    to {
+        height: 150px;
+    }
+}
