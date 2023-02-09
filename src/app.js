@@ -66,3 +66,14 @@ startButton.addEventListener('click', () => {
     doboz1.style.backgroundColor = 'gray';
     doboz1.style.animation = "anim1 10s";
 });
+
+// Tömb bejárása
+
+var szamokTomb = [35, 42, 27, 55, 72, 721];
+
+// Conslole-ra kiírja a fenti tömb elemeit (szam)
+// Névtelen függvény...
+
+szamokTomb.forEach( (szam) => {
+    console.log(szam);
+});
