@@ -53,3 +53,8 @@ function kiir(szam){
         console.log("Ismeretlen érték");    
     }
 }
+
+// console.log(window.width);
+// console.log(window.height);  
+
+console.error("ERROR, HIBA!");
